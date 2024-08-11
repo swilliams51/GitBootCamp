@@ -16,6 +16,13 @@ struct ContentView: View {
             Text("Hello, Universe!")
         }
         .padding()
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Goodbye, Universe!")
+        }
+        .padding()
     }
 }
 
